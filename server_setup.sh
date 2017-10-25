@@ -19,13 +19,14 @@ echo "Installing nginx with rtmp module..."
 
 
 echo "Configuring nginx server..."
-echo "server {
-        listen 1935;
-        chunk_size 4096;
-        application live {
-            live on;
-            record off;
-        }
+echo "rtmp {
+		server {
+        	listen 1935;
+        	chunk_size 4096;
+        	application live {
+            	live on;
+            	record off;
+        	}
     }
 }" >> /usr/local/nginx/conf/nginx.conf;
 
