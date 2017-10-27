@@ -6,25 +6,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drone Monitor Center</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/slick-team-slider.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">	
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600|Raleway:600,300|Josefin+Slab:400,700,600italic,600,400italic' rel='stylesheet' type='text/css'>
+
+	
+	<!-- This page was designed with a modified version of... -->
+	<!-- =======================================================
+	Theme Name: Tempo
+	Theme URL: https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/
+	Author: BootstrapMade.com
+	Author URL: https://bootstrapmade.com
+	======================================================= -->
 </head>
 
 <body>
-    <nav class="navbar navbar-default">
+	<!-- NAVBAR START -->
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header"><a class="navbar-brand navbar-link" href="index.html"><strong>DMC</strong> </a>
                 <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
             </div>
             <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav">
-                    <li role="presentation"><a href="stream.html">Stream </a></li>
-                    <li role="presentation"><a href="#">Past Broadcasts</a></li>
-                    <li role="presentation"><a href="#">Account Settings</a></li>
-					<li class="pull-right"  role="presentation"><a href="login.html">Sign in</a></li>
-                </ul>
-            </div>
+				<ul class="nav navbar-nav">
+					<li><a href="stream.html">Stream </a></li>
+					<li><a href="#">Past Broadcasts</a></li>
+					<li><a href="#">Account Settings</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+				</ul>
+			</div>
         </div>
     </nav>
+	<!-- NAVBAR END -->
+	
+	<!--BANNER START-->
+	<div id="banner" class="section-padding">
+	<div class="container">
+	  <div class="row">
+		<div class="jumbotron">
+		  <h1 class="small"><span class="bold">Drone Monitor Center</span></h1>
+		  <p class="big">Aerial viewing and surveillance</p>
+		</div>
+	  </div>
+	</div>
+	</div>
+	<!--BANNER END-->
 
+	<!--SERVICE START-->
+	<div id="service" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="page-title text-center">
+          <h1>Features</h1>
+          <p>DMC is an interactive livestream platform for UAV footage. </p>
+          <hr class="pg-titl-bdr-btm"></hr>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-icon"><span class="glyphicon glyphicon-eye-open"></span></div>
+            <div class="service-text">
+              <h3>View</h3>
+              <p> DMC has been designed to deliver quality aerial footage with an average latency of x seconds.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-icon"><span class="glyphicon glyphicon-user"></span></div>
+            <div class="service-text">
+              <h3>Interact</h3>
+              <p>Communicate via text to other viewers (voice coming soon). Customize user permissions and stream privacy settings.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-icon"><span class="glyphicon glyphicon-cloud"></span></div>
+            <div class="service-text">
+              <h3>Retrieve</h3>
+              <p>View chat logs and previous broadcasts on demand.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+	<!--SERVICE END-->
 <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
 <script>
   // Initialize Firebase
